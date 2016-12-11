@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_filter :find_model
+  before_action :authenticate_user!
 
   def show
 
