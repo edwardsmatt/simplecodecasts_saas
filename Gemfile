@@ -25,6 +25,7 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'font-awesome-sass', '~> 4.7'
+gem 'autoprefixer-rails', '~> 6.5', '>= 6.5.3.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -44,6 +45,8 @@ gem 'devise', '~> 4.2'
 gem 'stripe', '~> 1.57', '>= 1.57.1'
 # Use figaro to hide secret keys
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+# Use paperclip for image uploads
+gem 'paperclip', '~> 5.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
